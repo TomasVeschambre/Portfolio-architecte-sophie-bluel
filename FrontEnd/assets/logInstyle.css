@@ -1,0 +1,55 @@
+body{
+    background-color: #FFFEF8;
+}
+
+main{
+    height: 730px;
+}
+
+#connect{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-login{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+input {
+    margin-top: 10px;
+    width: 379px;
+    height: 51px;
+
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+input[type="submit"]{
+    display: flex;
+    height: 36px;
+    width: 179px;
+}
+
+#wrongPassword{
+    display: none;
+    justify-content: center;
+    color: rgb(156, 3, 3);
+}
+
+#loginPage{
+    color: white;
+    border: none;
+}
+
+.passwordMiss{
+    text-decoration: underline;
+}
